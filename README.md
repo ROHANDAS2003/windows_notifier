@@ -32,7 +32,7 @@ To clone the repository from GitHub, follow these steps:
 
 
 
-git clone <https://github.com/your-username/windows-notifier.git>
+git clone <https://github.com/ROHANDAS2003/windows_notifier>
 
 1. Navigate to the project directory:
 
@@ -79,9 +79,6 @@ This will display a notification every hour reminding you to drink water (or any
 
 - To change the message or notification interval, modify the following lines in windows_notifier.py:
 
-python
-
-Copy code
 
 toaster.show_toast("Water Time", "It's Time To Drink Water!", duration=10)
 
@@ -90,10 +87,6 @@ time.sleep(3600) # Modify 3600 for a different interval
 - Change the message text or duration, and adjust the time.sleep(3600) value to customize the time interval (3600 seconds = 1 hour).
 
 **Folder Structure**
-
-bash
-
-Copy code
 
 windows-notifier/
 
@@ -117,10 +110,6 @@ windows-notifier/
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Happy notifying! Stay hydrated! 🚰
-
-markdown
-
-Copy code
 
 ### Key Points:
 
