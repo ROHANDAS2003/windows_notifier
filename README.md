@@ -91,7 +91,6 @@ time.sleep(3600) # Modify 3600 for a different interval
 windows-notifier/
 
 ├── windows_notifier.py # Main Python script
-
 └── README.md # Project documentation (this file)
 
 **Limitations**
